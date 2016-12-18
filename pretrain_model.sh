@@ -1,3 +1,6 @@
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/usr/local/cuda/lib"
+
+
 if [ $1  ]; then
   MODEL=$1
 else
